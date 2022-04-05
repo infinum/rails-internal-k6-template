@@ -1,7 +1,8 @@
-* Goal
-This repository should be used as a load testing resource for Infinum teams. It should allow a project team to implement a load testing scenario without spending too much time learning the k6 tool and reinventing the wheel.
+# k6 template
 
-* Technical contributions
+## Goal
+This repository should be used as a load testing resource for Infinum teams. It should enable a project team to implement a load testing scenario without spending too much time learning the k6 tool and reinventing the wheel.
+## Technical contributions
 - an example k6 repository structure
   - Javascript linting support (eslint + prettier)
 - an example file/folder/class structure that supports a composable and reusable load test setup
@@ -13,6 +14,7 @@ This repository should be used as a load testing resource for Infinum teams. It 
 - simple examples of holding state (e.g. IDs, tokens) between consecutive multiple requests
 - setting per request type response time thresholds
 
-* Usage
+## Usage
 
+````bash
 BASE_URL=https://example.com SUBJECT_ID=5 k6 run script/scenario.js
